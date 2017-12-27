@@ -1,3 +1,9 @@
-
+echo "# ddd" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/lfw1/ddd.git
+git push -u origin master
 github上面的数据同步到本地:  git pull origin master
 git上面的数据同步到github: git push 
+
